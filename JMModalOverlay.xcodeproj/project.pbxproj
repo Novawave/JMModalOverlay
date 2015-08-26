@@ -458,6 +458,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JMModalOverlay/JMModalOverlay-Prefix.pch";
 				INFOPLIST_FILE = "JMModalOverlay/JMModalOverlay-Info.plist";
+				INSTALL_PATH = "@rpath";
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -475,6 +477,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JMModalOverlay/JMModalOverlay-Prefix.pch";
 				INFOPLIST_FILE = "JMModalOverlay/JMModalOverlay-Info.plist";
+				INSTALL_PATH = "@rpath";
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
