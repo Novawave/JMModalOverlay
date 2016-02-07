@@ -1,4 +1,4 @@
-module framework JMModalOverlay {
+framework module JMModalOverlay {
   umbrella header "JMModelOverlay.h"
   
   export *
