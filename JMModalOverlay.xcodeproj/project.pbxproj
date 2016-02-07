@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FA8D5691C67C7270076B5E9 /* JMModalOverlay-Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA8D5681C67C7270076B5E9 /* JMModalOverlay-Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A74EE4BF17267BE8006EFBAA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74EE4BE17267BE8006EFBAA /* Cocoa.framework */; };
 		A74EE4C917267BE8006EFBAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A74EE4C717267BE8006EFBAA /* InfoPlist.strings */; };
 		A74EE4CD17267BE8006EFBAA /* JMModalOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = A74EE4CC17267BE8006EFBAA /* JMModalOverlay.m */; };
@@ -55,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		3F7F85C61A9768350045A2C1 /* Version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Version.h; sourceTree = "<group>"; };
+		5FA8D5681C67C7270076B5E9 /* JMModalOverlay-Framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JMModalOverlay-Framework.h"; sourceTree = "<group>"; };
 		A74EE4BB17267BE8006EFBAA /* JMModalOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JMModalOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74EE4BE17267BE8006EFBAA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A74EE4C117267BE8006EFBAA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -166,6 +168,7 @@
 				A71ECBB8172932FD004BD647 /* Views */,
 				A74EE4C517267BE8006EFBAA /* Supporting Files */,
 				3F7F85C61A9768350045A2C1 /* Version.h */,
+				5FA8D5681C67C7270076B5E9 /* JMModalOverlay-Framework.h */,
 			);
 			path = JMModalOverlay;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			files = (
 				A74EE4EF17268EC1006EFBAA /* JMModalOverlay.h in Headers */,
 				A74EE50217269609006EFBAA /* JMOverlayView.h in Headers */,
+				5FA8D5691C67C7270076B5E9 /* JMModalOverlay-Framework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
