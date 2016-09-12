@@ -440,6 +440,7 @@
 				INFOPLIST_FILE = "JMModalOverlay/JMModalOverlay-Info.plist";
 				INSTALL_PATH = "@rpath";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kodlian.modal.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +508,7 @@
 				INFOPLIST_FILE = "JMModalOverlay/JMModalOverlay-Info.plist";
 				INSTALL_PATH = "@rpath";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kodlian.modal.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -566,6 +568,7 @@
 				INFOPLIST_FILE = "JMModalOverlay/JMModalOverlay-Info.plist";
 				INSTALL_PATH = "@rpath";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kodlian.modal.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -658,6 +661,7 @@
 				INFOPLIST_FILE = "JMModalOverlay/JMModalOverlay-Info.plist";
 				INSTALL_PATH = "@rpath";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kodlian.modal.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -679,6 +683,7 @@
 				INFOPLIST_FILE = "JMModalOverlay/JMModalOverlay-Info.plist";
 				INSTALL_PATH = "@rpath";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kodlian.modal.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
